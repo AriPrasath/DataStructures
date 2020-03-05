@@ -1,0 +1,50 @@
+import java.util.*;
+
+class LinkedList{
+    // Node node=new Node();
+    Node head;
+    Node tail;
+    
+    public void assign(int value){
+        Node new_node=new Node();
+        new_node.data=value;
+        new_node.next=null;
+        
+        if(head==null){
+            head=new_node;
+        }else{
+            tail.next=new_node;
+        }
+        tail=new_node;
+    }
+    
+    public void print(){
+        Node temp=head;
+        while(temp!=null){
+            System.out.println(temp.data);
+            temp=temp.next;
+        }
+    }
+}
+
+class Node{
+    int data;
+    Node next;
+}
+    
+public class Main{
+    public static void main(String[] args){
+        Scanner scanner=new Scanner(System.in);
+        LinkedList list=new LinkedList();
+        
+        list.assign(1);
+        list.assign(2);
+        list.assign(3);
+        list.assign(4);
+        list.print();
+    }
+    
+    
+    
+    
+}
