@@ -17,17 +17,33 @@ IP:
 8
 1
 9
+
 2
+
 3
 2
+
 4
 5
+
 6
 18
+
 7
 3
 15
-10
+
+2
+
+8
+
+2
+
+9
+
+2
+
+12
 
 
 
@@ -290,7 +306,7 @@ class LinkedList{
         
         Node temp=head;
         Node prev=head;
-        int i=1,flag=0;
+        int i=1;
         if(value==1){
             if(head==null){
                 head=new_node;
@@ -298,25 +314,22 @@ class LinkedList{
                 new_node.next=head.next;
                 head=new_node;
             }
-            flag=1;
+            System.out.println("Successfully Inserted");
+            return;
         }else{
             while(temp!=null){
                 if(i==value){
                     prev.next=new_node;
                     new_node.next=temp;
-                    flag=1;
-                    break;
+                    System.out.println("Successfully Inserted");
+                    return;
                 }
                 prev=temp;
                 temp=temp.next;
                 i++;
             }
         }
-        if(flag==0){
-            System.out.println("Position Doesn't Exist");
-        }
-        
-        print();
+        System.out.println("Position Doesn't Exist");
     }
     
     //method to print the LinkedList
@@ -331,44 +344,71 @@ class LinkedList{
     //method to search a value in LinkedList
     public void search(int key){
         Node temp=head;
-        int i=1,flag=0;;
+        int i=1;
         while(temp!=null){
             if(temp.data==key){
                 System.out.println("True ,Occurs at Index : "+i);
-                flag=1;
-                break;
+                return;
             }
             i++;
             temp=temp.next;
         }
-        if(flag==0){
-            System.out.println("Key Doesn't Occur");
-        }
+        System.out.println("Key Doesn't Occur");
     }
     
     public void delete(int key){
         Node temp=head;
         Node prev=head;
-        int i=1,flag=0;
+        int i=1;
         
         if(head.data==key){
             head=head.next;
-            flag=1;
+            System.out.println("Successfully Deleted");
+            return;
         }
         while(temp!=null){
             if(temp.data==key){
+                prev.next=null;
                 prev.next=temp.next;
                 System.out.println("Successfully Deleted");
-                flag=1;
-                break;
+                return;
             }
             prev=temp;
             temp=temp.next;
         }
-        if(flag==0){
-            System.out.println("Key Doesn't Occur");
+        System.out.println("Key Doesn't Occur");
+    }
+    
+    public void deleteFirst(){
+        
+        if(head!=null){
+            head=head.next;
+            System.out.println("Successfully Deleted");
+            return;
         }
-        print();
+        
+        System.out.println("No Node Available");
+    }
+    public void deleteLast(){
+        
+        if(head==tail){
+            head=null;
+            System.out.println("Successfully Deleted");
+            return;
+        }else{
+            Node temp=head;
+            while(temp.next!=null){
+                if(temp.next==tail){
+                    temp.next=null;
+                    tail=temp;
+                    System.out.println("Successfully Deleted");
+                    return;
+                }
+                temp=temp.next;
+            }
+        }
+        
+        System.out.println("No Node Available");
     }
 }
 
@@ -420,18 +460,29 @@ public class Main{
                     break;
                     
                 case 8:
-                    
+                    System.out.println("Enter the value to be Deleted First in List : ");
+                    list.deleteFirst();
+                    break;
                     
                 case 9:
+                    System.out.println("Enter the value to be Deleted Last in List : ");
+                    list.deleteLast();
+                    break;
                     
                 case 10:
+                    
+                case 11:
+                    
+                    
+                case 12:
                     flag=1;
                     break;
+                    
                 default :
                     System.out.println("Invalid Option!!!!!!");
                     break;
             }
         }while(flag==0);
-        System.out.println("*******************************END********************");
+        System.out.println("********************END********************");
     }
 }
