@@ -43,9 +43,20 @@ IP:
 
 2
 
-12
+10
+111
+99
+111
+66
+111
+55
+112
 
+2
 
+11
+
+15
 
 OP:
 Enter any one :
@@ -58,7 +69,12 @@ Enter any one :
 7.INSERT AT POSITION
 8.DELETE AT FIRST
 9.DELETE AT LAST
-10.EXIT
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.SPLIT SORT
+14.
+15.EXIT
 
 Enter the value to be Added in List : 
 Enter any one :
@@ -71,7 +87,12 @@ Enter any one :
 7.INSERT AT POSITION
 8.DELETE AT FIRST
 9.DELETE AT LAST
-10.EXIT
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.SPLIT SORT
+14.
+15.EXIT
 
 Enter the value to be Added in List : 
 Enter any one :
@@ -84,7 +105,12 @@ Enter any one :
 7.INSERT AT POSITION
 8.DELETE AT FIRST
 9.DELETE AT LAST
-10.EXIT
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.SPLIT SORT
+14.
+15.EXIT
 
 Enter the value to be Added in List : 
 Enter any one :
@@ -97,7 +123,12 @@ Enter any one :
 7.INSERT AT POSITION
 8.DELETE AT FIRST
 9.DELETE AT LAST
-10.EXIT
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.SPLIT SORT
+14.
+15.EXIT
 
 Enter the value to be Added in List : 
 Enter any one :
@@ -110,7 +141,12 @@ Enter any one :
 7.INSERT AT POSITION
 8.DELETE AT FIRST
 9.DELETE AT LAST
-10.EXIT
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.SPLIT SORT
+14.
+15.EXIT
 
 Enter the value to be Added in List : 
 Enter any one :
@@ -123,7 +159,12 @@ Enter any one :
 7.INSERT AT POSITION
 8.DELETE AT FIRST
 9.DELETE AT LAST
-10.EXIT
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.SPLIT SORT
+14.
+15.EXIT
 
 Enter the value to be Added in List : 
 Enter any one :
@@ -136,7 +177,12 @@ Enter any one :
 7.INSERT AT POSITION
 8.DELETE AT FIRST
 9.DELETE AT LAST
-10.EXIT
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.SPLIT SORT
+14.
+15.EXIT
 
 Enter the value to be Added in List : 
 Enter any one :
@@ -149,7 +195,12 @@ Enter any one :
 7.INSERT AT POSITION
 8.DELETE AT FIRST
 9.DELETE AT LAST
-10.EXIT
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.SPLIT SORT
+14.
+15.EXIT
 
 Enter the value to be Added in List : 
 Enter any one :
@@ -162,7 +213,12 @@ Enter any one :
 7.INSERT AT POSITION
 8.DELETE AT FIRST
 9.DELETE AT LAST
-10.EXIT
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.SPLIT SORT
+14.
+15.EXIT
 
 Enter the value to be Added in List : 
 Enter any one :
@@ -175,7 +231,12 @@ Enter any one :
 7.INSERT AT POSITION
 8.DELETE AT FIRST
 9.DELETE AT LAST
-10.EXIT
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.SPLIT SORT
+14.
+15.EXIT
 
 The Elements in List Are : 
 1
@@ -197,7 +258,12 @@ Enter any one :
 7.INSERT AT POSITION
 8.DELETE AT FIRST
 9.DELETE AT LAST
-10.EXIT
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.SPLIT SORT
+14.
+15.EXIT
 
 Enter the KEY to be Searched in List : 
 True ,Occurs at Index : 2
@@ -211,18 +277,15 @@ Enter any one :
 7.INSERT AT POSITION
 8.DELETE AT FIRST
 9.DELETE AT LAST
-10.EXIT
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.SPLIT SORT
+14.
+15.EXIT
 
 Enter the value to be Deleted in List : 
 Successfully Deleted
-1
-2
-3
-4
-6
-7
-8
-9
 Enter any one :
 1.INSERT
 2.PRINT
@@ -233,7 +296,12 @@ Enter any one :
 7.INSERT AT POSITION
 8.DELETE AT FIRST
 9.DELETE AT LAST
-10.EXIT
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.SPLIT SORT
+14.
+15.EXIT
 
 Enter the KEY to be Entered in the First of List : 
 18
@@ -254,8 +322,224 @@ Enter any one :
 7.INSERT AT POSITION
 8.DELETE AT FIRST
 9.DELETE AT LAST
-10.EXIT
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.SPLIT SORT
+14.
+15.EXIT
 
+Enter the KEY to be Entered in the Positon of List : 
+Successfully Inserted
+Enter any one :
+1.INSERT
+2.PRINT
+3.SEARCH
+4.DELETE
+5.SORT
+6.INSERT AT FRIST
+7.INSERT AT POSITION
+8.DELETE AT FIRST
+9.DELETE AT LAST
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.SPLIT SORT
+14.
+15.EXIT
+
+The Elements in List Are : 
+18
+2
+15
+3
+4
+6
+7
+8
+9
+Enter any one :
+1.INSERT
+2.PRINT
+3.SEARCH
+4.DELETE
+5.SORT
+6.INSERT AT FRIST
+7.INSERT AT POSITION
+8.DELETE AT FIRST
+9.DELETE AT LAST
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.SPLIT SORT
+14.
+15.EXIT
+
+Enter the value to be Deleted First in List : 
+Successfully Deleted
+Enter any one :
+1.INSERT
+2.PRINT
+3.SEARCH
+4.DELETE
+5.SORT
+6.INSERT AT FRIST
+7.INSERT AT POSITION
+8.DELETE AT FIRST
+9.DELETE AT LAST
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.SPLIT SORT
+14.
+15.EXIT
+
+The Elements in List Are : 
+2
+15
+3
+4
+6
+7
+8
+9
+Enter any one :
+1.INSERT
+2.PRINT
+3.SEARCH
+4.DELETE
+5.SORT
+6.INSERT AT FRIST
+7.INSERT AT POSITION
+8.DELETE AT FIRST
+9.DELETE AT LAST
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.SPLIT SORT
+14.
+15.EXIT
+
+Enter the value to be Deleted Last in List : 
+Successfully Deleted
+Enter any one :
+1.INSERT
+2.PRINT
+3.SEARCH
+4.DELETE
+5.SORT
+6.INSERT AT FRIST
+7.INSERT AT POSITION
+8.DELETE AT FIRST
+9.DELETE AT LAST
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.SPLIT SORT
+14.
+15.EXIT
+
+The Elements in List Are : 
+2
+15
+3
+4
+6
+7
+8
+Enter any one :
+1.INSERT
+2.PRINT
+3.SEARCH
+4.DELETE
+5.SORT
+6.INSERT AT FRIST
+7.INSERT AT POSITION
+8.DELETE AT FIRST
+9.DELETE AT LAST
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.SPLIT SORT
+14.
+15.EXIT
+
+Enter Any One: 
+111.Insert
+112.Exit
+Enter Any One: 
+111.Insert
+112.Exit
+Enter Any One: 
+111.Insert
+112.Exit
+Enter Any One: 
+111.Insert
+112.Exit
+Enter any one :
+1.INSERT
+2.PRINT
+3.SEARCH
+4.DELETE
+5.SORT
+6.INSERT AT FRIST
+7.INSERT AT POSITION
+8.DELETE AT FIRST
+9.DELETE AT LAST
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.SPLIT SORT
+14.
+15.EXIT
+
+The Elements in List Are : 
+2
+15
+3
+4
+6
+7
+8
+Enter any one :
+1.INSERT
+2.PRINT
+3.SEARCH
+4.DELETE
+5.SORT
+6.INSERT AT FRIST
+7.INSERT AT POSITION
+8.DELETE AT FIRST
+9.DELETE AT LAST
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.SPLIT SORT
+14.
+15.EXIT
+
+The Elements in List Are : 
+99
+66
+55
+Enter any one :
+1.INSERT
+2.PRINT
+3.SEARCH
+4.DELETE
+5.SORT
+6.INSERT AT FRIST
+7.INSERT AT POSITION
+8.DELETE AT FIRST
+9.DELETE AT LAST
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.SPLIT SORT
+14.
+15.EXIT
+
+********************END********************
 
 
 
@@ -422,10 +706,11 @@ public class Main{
     public static void main(String[] args){
         Scanner scanner=new Scanner(System.in);
         LinkedList list=new LinkedList();
+        LinkedList new_list=new LinkedList();
         
         int flag=0;
         do{
-            System.out.println("Enter any one :\n1.INSERT\n2.PRINT\n3.SEARCH\n4.DELETE\n5.SORT\n6.INSERT AT FRIST\n7.INSERT AT POSITION\n8.DELETE AT FIRST\n9.DELETE AT LAST\n10.EXIT\n");
+            System.out.println("Enter any one :\n1.INSERT\n2.PRINT\n3.SEARCH\n4.DELETE\n5.SORT\n6.INSERT AT FRIST\n7.INSERT AT POSITION\n8.DELETE AT FIRST\n9.DELETE AT LAST\n10.INSERT NEW LIST\n11.DISPLAY MATCH\n12.MERGE\n13.SPLIT SORT\n14.\n15.EXIT\n");
             int action=scanner.nextInt();
             switch(action){
                 case 1:
@@ -448,7 +733,9 @@ public class Main{
                     list.delete(scanner.nextInt());
                     break;
                 case 5:
-                    
+                    // list.sort();
+                    // list.print();
+                    // break;
                 case 6:
                     System.out.println("Enter the KEY to be Entered in the First of List : ");
                     list.assignFirst(scanner.nextInt());
@@ -470,11 +757,35 @@ public class Main{
                     break;
                     
                 case 10:
+                    int new_choice=0;
+                    do{
+                        System.out.println("Enter Any One: \n111.Insert\n112.Exit");
+                        new_choice=scanner.nextInt();
+                        switch(new_choice){
+                            case 111:
+                                new_list.assign(scanner.nextInt());
+                                break;
+                                
+                            case 112:
+                                break;
+                        }
+                        
+                    }while(new_choice!=112);
+                    break;
                     
                 case 11:
-                    
-                    
+                    System.out.println("The Elements in List Are : ");
+                    new_list.print();
+                    break;
+                
                 case 12:
+                    
+                case 13:
+                    
+                case 14:
+                    
+                    
+                case 15:
                     flag=1;
                     break;
                     
