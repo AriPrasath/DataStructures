@@ -694,6 +694,9 @@ class LinkedList{
         
         System.out.println("No Node Available");
     }
+    
+    
+    public void split()
 }
 
 //Node class With two Attributes to hold value
@@ -780,8 +783,12 @@ public class Main{
                 
                 case 12:
                     
+                    // merge();
+                    break;
                 case 13:
-                    
+                    System.out.println("Enter the size to be splitted");
+                    list.split(scanner.nextInt());
+                    break;
                 case 14:
                     
                     
