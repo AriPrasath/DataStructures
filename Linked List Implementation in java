@@ -24,6 +24,9 @@ IP:
 5
 6
 18
+7
+3
+15
 10
 
 
@@ -240,7 +243,6 @@ Enter any one :
 
 
 
-
 import java.util.*;
 
 //Linked List Class which holds Node in it
@@ -280,29 +282,40 @@ class LinkedList{
     }
     
     //method to Assign Value At POSITION
-    public void assignPos(int value){
+    public void assignPos(int value,int dat){
         Node new_node=new Node();
-        new_node.data=value;
+        new_node.data=dat;
         new_node.next=null;
         
         
         Node temp=head;
         Node prev=head;
         int i=1,flag=0;
-        while(temp!=null){
-            if(i==val){
-                
+        if(value==1){
+            if(head==null){
+                head=new_node;
+            }else{
+                new_node.next=head.next;
+                head=new_node;
             }
-            
-            temp=temp.next;
-            i++;
+            flag=1;
+        }else{
+            while(temp!=null){
+                if(i==value){
+                    prev.next=new_node;
+                    new_node.next=temp;
+                    flag=1;
+                    break;
+                }
+                prev=temp;
+                temp=temp.next;
+                i++;
+            }
         }
-        // if(head==null){
-        //     head=new_node;
-        // }else{
-        //     new_node.next=head.next;
-        //     head=new_node;
-        // }
+        if(flag==0){
+            System.out.println("Position Doesn't Exist");
+        }
+        
         print();
     }
     
@@ -403,7 +416,7 @@ public class Main{
                     
                 case 7:
                     System.out.println("Enter the KEY to be Entered in the Positon of List : ");
-                    list.assignPos(scanner.nextInt());
+                    list.assignPos(scanner.nextInt(),scanner.nextInt());
                     break;
                     
                 case 8:
@@ -419,5 +432,6 @@ public class Main{
                     break;
             }
         }while(flag==0);
+        System.out.println("*******************************END********************");
     }
 }
