@@ -58,6 +58,9 @@ IP:
 
 13 
 
+14
+3
+
 15
 
 OP:
@@ -688,6 +691,35 @@ class LinkedList{
         }
         head=prev;
     }
+    
+    public void splitReverse(int size){
+        Node start=head,last=head,prev=null,curr=start,next=null;;
+        int i=1;
+        
+        while(last!=null){
+            if(i==size || last.next==null){
+                
+                int j=1;
+                while(j<=i){
+                    next=curr.next;
+                    curr.next=null;
+                    curr.next=prev;
+                    prev=curr;
+                    curr=next;
+                    j++;
+                }
+                if(last.next==null){
+                    head=last; 
+                }
+                i=1;
+                last=last.next;
+                start=last;
+            }else{
+                i++;
+                last=last.next;
+            }
+        }
+    }
 }
 
 //Node class With two Attributes to hold value
@@ -782,7 +814,10 @@ public class Main{
                     list.print();
                     break;
                 case 14:
-                    
+                    System.out.println("Enter the size to be spit");
+                    list.splitReverse(scanner.nextInt());
+                    list.print();
+                    break;
                     
                 case 15:
                     flag=1;
