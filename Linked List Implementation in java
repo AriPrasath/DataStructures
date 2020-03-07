@@ -56,6 +56,8 @@ IP:
 
 11
 
+13 
+
 15
 
 OP:
@@ -72,8 +74,8 @@ Enter any one :
 10.INSERT NEW LIST
 11.DISPLAY MATCH
 12.MERGE
-13.SPLIT SORT
-14.
+13.REVERSE SORT
+14.SPLIT
 15.EXIT
 
 Enter the value to be Added in List : 
@@ -90,8 +92,8 @@ Enter any one :
 10.INSERT NEW LIST
 11.DISPLAY MATCH
 12.MERGE
-13.SPLIT SORT
-14.
+13.REVERSE SORT
+14.SPLIT
 15.EXIT
 
 Enter the value to be Added in List : 
@@ -108,8 +110,8 @@ Enter any one :
 10.INSERT NEW LIST
 11.DISPLAY MATCH
 12.MERGE
-13.SPLIT SORT
-14.
+13.REVERSE SORT
+14.SPLIT
 15.EXIT
 
 Enter the value to be Added in List : 
@@ -126,8 +128,8 @@ Enter any one :
 10.INSERT NEW LIST
 11.DISPLAY MATCH
 12.MERGE
-13.SPLIT SORT
-14.
+13.REVERSE SORT
+14.SPLIT
 15.EXIT
 
 Enter the value to be Added in List : 
@@ -144,8 +146,8 @@ Enter any one :
 10.INSERT NEW LIST
 11.DISPLAY MATCH
 12.MERGE
-13.SPLIT SORT
-14.
+13.REVERSE SORT
+14.SPLIT
 15.EXIT
 
 Enter the value to be Added in List : 
@@ -162,8 +164,8 @@ Enter any one :
 10.INSERT NEW LIST
 11.DISPLAY MATCH
 12.MERGE
-13.SPLIT SORT
-14.
+13.REVERSE SORT
+14.SPLIT
 15.EXIT
 
 Enter the value to be Added in List : 
@@ -180,8 +182,8 @@ Enter any one :
 10.INSERT NEW LIST
 11.DISPLAY MATCH
 12.MERGE
-13.SPLIT SORT
-14.
+13.REVERSE SORT
+14.SPLIT
 15.EXIT
 
 Enter the value to be Added in List : 
@@ -198,8 +200,8 @@ Enter any one :
 10.INSERT NEW LIST
 11.DISPLAY MATCH
 12.MERGE
-13.SPLIT SORT
-14.
+13.REVERSE SORT
+14.SPLIT
 15.EXIT
 
 Enter the value to be Added in List : 
@@ -216,8 +218,8 @@ Enter any one :
 10.INSERT NEW LIST
 11.DISPLAY MATCH
 12.MERGE
-13.SPLIT SORT
-14.
+13.REVERSE SORT
+14.SPLIT
 15.EXIT
 
 Enter the value to be Added in List : 
@@ -234,20 +236,12 @@ Enter any one :
 10.INSERT NEW LIST
 11.DISPLAY MATCH
 12.MERGE
-13.SPLIT SORT
-14.
+13.REVERSE SORT
+14.SPLIT
 15.EXIT
 
 The Elements in List Are : 
-1
-2
-3
-4
-5
-6
-7
-8
-9
+1 2 3 4 5 6 7 8 9 
 Enter any one :
 1.INSERT
 2.PRINT
@@ -261,8 +255,8 @@ Enter any one :
 10.INSERT NEW LIST
 11.DISPLAY MATCH
 12.MERGE
-13.SPLIT SORT
-14.
+13.REVERSE SORT
+14.SPLIT
 15.EXIT
 
 Enter the KEY to be Searched in List : 
@@ -280,8 +274,8 @@ Enter any one :
 10.INSERT NEW LIST
 11.DISPLAY MATCH
 12.MERGE
-13.SPLIT SORT
-14.
+13.REVERSE SORT
+14.SPLIT
 15.EXIT
 
 Enter the value to be Deleted in List : 
@@ -299,19 +293,12 @@ Enter any one :
 10.INSERT NEW LIST
 11.DISPLAY MATCH
 12.MERGE
-13.SPLIT SORT
-14.
+13.REVERSE SORT
+14.SPLIT
 15.EXIT
 
 Enter the KEY to be Entered in the First of List : 
-18
-2
-3
-4
-6
-7
-8
-9
+18 2 3 4 6 7 8 9 
 Enter any one :
 1.INSERT
 2.PRINT
@@ -325,8 +312,8 @@ Enter any one :
 10.INSERT NEW LIST
 11.DISPLAY MATCH
 12.MERGE
-13.SPLIT SORT
-14.
+13.REVERSE SORT
+14.SPLIT
 15.EXIT
 
 Enter the KEY to be Entered in the Positon of List : 
@@ -344,20 +331,12 @@ Enter any one :
 10.INSERT NEW LIST
 11.DISPLAY MATCH
 12.MERGE
-13.SPLIT SORT
-14.
+13.REVERSE SORT
+14.SPLIT
 15.EXIT
 
 The Elements in List Are : 
-18
-2
-15
-3
-4
-6
-7
-8
-9
+18 2 15 3 4 6 7 8 9 
 Enter any one :
 1.INSERT
 2.PRINT
@@ -371,8 +350,8 @@ Enter any one :
 10.INSERT NEW LIST
 11.DISPLAY MATCH
 12.MERGE
-13.SPLIT SORT
-14.
+13.REVERSE SORT
+14.SPLIT
 15.EXIT
 
 Enter the value to be Deleted First in List : 
@@ -390,19 +369,12 @@ Enter any one :
 10.INSERT NEW LIST
 11.DISPLAY MATCH
 12.MERGE
-13.SPLIT SORT
-14.
+13.REVERSE SORT
+14.SPLIT
 15.EXIT
 
 The Elements in List Are : 
-2
-15
-3
-4
-6
-7
-8
-9
+2 15 3 4 6 7 8 9 
 Enter any one :
 1.INSERT
 2.PRINT
@@ -416,8 +388,8 @@ Enter any one :
 10.INSERT NEW LIST
 11.DISPLAY MATCH
 12.MERGE
-13.SPLIT SORT
-14.
+13.REVERSE SORT
+14.SPLIT
 15.EXIT
 
 Enter the value to be Deleted Last in List : 
@@ -435,18 +407,12 @@ Enter any one :
 10.INSERT NEW LIST
 11.DISPLAY MATCH
 12.MERGE
-13.SPLIT SORT
-14.
+13.REVERSE SORT
+14.SPLIT
 15.EXIT
 
 The Elements in List Are : 
-2
-15
-3
-4
-6
-7
-8
+2 15 3 4 6 7 8 
 Enter any one :
 1.INSERT
 2.PRINT
@@ -460,8 +426,8 @@ Enter any one :
 10.INSERT NEW LIST
 11.DISPLAY MATCH
 12.MERGE
-13.SPLIT SORT
-14.
+13.REVERSE SORT
+14.SPLIT
 15.EXIT
 
 Enter Any One: 
@@ -489,18 +455,12 @@ Enter any one :
 10.INSERT NEW LIST
 11.DISPLAY MATCH
 12.MERGE
-13.SPLIT SORT
-14.
+13.REVERSE SORT
+14.SPLIT
 15.EXIT
 
 The Elements in List Are : 
-2
-15
-3
-4
-6
-7
-8
+2 15 3 4 6 7 8 
 Enter any one :
 1.INSERT
 2.PRINT
@@ -514,14 +474,12 @@ Enter any one :
 10.INSERT NEW LIST
 11.DISPLAY MATCH
 12.MERGE
-13.SPLIT SORT
-14.
+13.REVERSE SORT
+14.SPLIT
 15.EXIT
 
 The Elements in List Are : 
-99
-66
-55
+99 66 55 
 Enter any one :
 1.INSERT
 2.PRINT
@@ -535,8 +493,27 @@ Enter any one :
 10.INSERT NEW LIST
 11.DISPLAY MATCH
 12.MERGE
-13.SPLIT SORT
-14.
+13.REVERSE SORT
+14.SPLIT
+15.EXIT
+
+Succesfully Reversed
+8 7 6 4 3 15 2 
+Enter any one :
+1.INSERT
+2.PRINT
+3.SEARCH
+4.DELETE
+5.SORT
+6.INSERT AT FRIST
+7.INSERT AT POSITION
+8.DELETE AT FIRST
+9.DELETE AT LAST
+10.INSERT NEW LIST
+11.DISPLAY MATCH
+12.MERGE
+13.REVERSE SORT
+14.SPLIT
 15.EXIT
 
 ********************END********************
@@ -620,9 +597,10 @@ class LinkedList{
     public void print(){
         Node temp=head;
         while(temp!=null){
-            System.out.println(temp.data);
+            System.out.print(temp.data+" ");
             temp=temp.next;
         }
+        System.out.println();
     }
     
     //method to search a value in LinkedList
@@ -696,7 +674,20 @@ class LinkedList{
     }
     
     
-    public void split()
+    public void reverse(){
+        Node prev=null;
+        Node curr=head;
+        Node next=null;
+        
+        while(curr!=null){
+            next=curr.next;
+            curr.next=null;
+            curr.next=prev;
+            prev=curr;
+            curr=next;
+        }
+        head=prev;
+    }
 }
 
 //Node class With two Attributes to hold value
@@ -713,7 +704,7 @@ public class Main{
         
         int flag=0;
         do{
-            System.out.println("Enter any one :\n1.INSERT\n2.PRINT\n3.SEARCH\n4.DELETE\n5.SORT\n6.INSERT AT FRIST\n7.INSERT AT POSITION\n8.DELETE AT FIRST\n9.DELETE AT LAST\n10.INSERT NEW LIST\n11.DISPLAY MATCH\n12.MERGE\n13.SPLIT SORT\n14.\n15.EXIT\n");
+            System.out.println("Enter any one :\n1.INSERT\n2.PRINT\n3.SEARCH\n4.DELETE\n5.SORT\n6.INSERT AT FRIST\n7.INSERT AT POSITION\n8.DELETE AT FIRST\n9.DELETE AT LAST\n10.INSERT NEW LIST\n11.DISPLAY MATCH\n12.MERGE\n13.REVERSE SORT\n14.SPLIT\n15.EXIT\n");
             int action=scanner.nextInt();
             switch(action){
                 case 1:
@@ -786,8 +777,9 @@ public class Main{
                     // merge();
                     break;
                 case 13:
-                    System.out.println("Enter the size to be splitted");
-                    list.split(scanner.nextInt());
+                    list.reverse();
+                    System.out.println("Succesfully Reversed");
+                    list.print();
                     break;
                 case 14:
                     
